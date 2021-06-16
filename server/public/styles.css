@@ -1,0 +1,112 @@
+body{
+    color: black;
+}
+html, footer, body{
+    background-color: #DBF3FA;
+    
+}
+img{
+    max-width:  100%;
+}
+.icon{
+    max-width: 100%;
+    height: auto;
+    filter: invert(100%);
+}  
+
+.c-txt{
+    text-align: center;  
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color:#DBF3FA;
+    font-size: 35px;
+}
+
+.usuario{
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+.sub-s{
+    margin-top: 20px;
+    text-align: center;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.cont-input-btn{
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.m-title{
+    color: rgb(17, 103, 243);
+    font-size: 55px;
+}
+
+.text{
+    font-size: 30px;
+}   
+
+.gallery-container{
+
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    padding: 15px;
+    grid-gap: 10px; 
+}
+
+.gallery--img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+
+@media screen and (max-width:1250px){
+   .gallery-container{
+    grid-template-columns:repeat(1, 1fr);
+   }
+}
+
+.li-footer{
+        text-align: center;
+}
+
+.card-inf{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo2{
+    filter:invert(100%);
+    width: 30px;
+    height: 30px;
+}
+
+.img-vA{
+    width: 500px;
+    height: 500px;
+}
+
+.bc{
+    text-align: center;
+    border: 1 px black;
+}
+
+.top{
+    margin-top: 3%;
+}
+
+.li-obj{
+    font-size: 15px;
+}

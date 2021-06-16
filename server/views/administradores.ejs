@@ -1,0 +1,26 @@
+<%-include('partials/header');-%>
+<br>
+<h2 class="title">¿Eres administrador?</h2>
+<br>
+
+<div class="card text-white bg-info mb-3 w-500 card-inf">
+    <div class="card-header">Log in Administrador
+        <img src="/user.png" class="logo2" alt="Imagen de logotipo 2">
+    </div>
+    <div class="card-body">
+      <h4 class="card-title">Por favor introduce tus datos!</h4>
+      <form action="/vAdmin" method="GET">
+      <input type="text" class="form-control td displayib" placeholder="User" >
+      <br>
+      <input type="password" class="form-control td" placeholder="Password" >
+      <br>
+      <button type="submit" class="btn btn-success">Log in</button>
+      <br>
+    </form>
+    </div>
+</div>
+   
+
+
+
+<%-include('partials/footer');-%>

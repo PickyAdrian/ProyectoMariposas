@@ -1,0 +1,73 @@
+<%-include('partials/header');-%>
+
+<div class="card text-white bg-info mb-3 w-500 card-inf top">
+    <div class="card-body">
+      <h4 class="card-title">Actualizar informacion!</h4>
+        <form action="/vAdmin" method="GET">
+        <label class="form-label">Nombre</label>
+        <input class="form-control td displayib" type="text" placeholder="Nombre">
+        <br>
+        <label class="form-label">Municipio</label>
+        <select class="form-select"> <option>Elige una alcaldia</option>
+            <option>Álvaro Obregón</option>
+            <option>Azcapotzalco</option>
+            <option>Benito Juárez</option>
+            <option>Coyoacán</option>
+            <option>Cuajimalpa de Morelos</option>
+            <option>Cuauhtémoc</option>
+            <option>Gustavo A. Madero</option>
+            <option>Iztacalco</option>
+            <option>Iztapalapa</option>
+            <option>Magdalena Contreras</option>
+            <option>Miguel Hidalgo</option>
+            <option>Milpa Alta</option>
+            <option>Tláhuac</option>
+            <option>Tlalpan</option>
+            <option>Venustiano Carranza</option>
+            <option>Xochimilco</option>
+        </select>
+        <br>
+        <label class="form-label">Especie</label>
+        <input class="form-control td displayib" type="text" placeholder="Especie">
+        <br>
+        <label class="form-label">Filo</label>
+        <input class="form-control td displayib" type="text" placeholder="Filo" disabled="">
+        <br>
+        <label class="form-label">Clase</label>
+        <input class="form-control td displayib" type="text" placeholder="Clase" disabled="">
+        <br>
+        <label class="form-label">Orden</label>
+        <input class="form-control td displayib" type="text" placeholder="Orden">
+        <br>
+        <label class="form-label">SubFamilia</label>
+        <select class="form-select td displayib"> 
+          <option>Elige una Subfamilia</option>
+        </select>
+        <br>
+        <label class="form-label">SubTribu</label>
+        <select class="form-select td displayib"> 
+          <option>Elige una SubTribu</option>
+        </select>
+        <br>
+        <label class="form-label">Colores principales</label>
+        <input class="form-control td displayib" type="text" placeholder="Colores">
+        <br>
+        <label class="form-label">Tamaño promedio</label>
+        <input class="form-control td displayib" type="text" placeholder="Tamaño">
+        <br>
+        <label class="form-label labels">Imagen</label>
+        <input type="file" class="form-control td displayib"/> 
+        <br>
+        <label class="form-label">Actividad</label>
+        <input class="form-control td displayib" type="text" placeholder="Actividad">
+        <br>
+        <label class="form-label">Descripcion</label>
+        <input class="form-control td displayib " type="text" placeholder="Descripcion">
+        <br>
+      <button type="submit" class="btn btn-success">Actualizar</button>
+      <br>
+    </form>
+    </div>
+</div>
+
+<%-include('partials/footer');-%>
